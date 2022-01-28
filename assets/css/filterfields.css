@@ -1,0 +1,48 @@
+
+html,
+body {
+  min-height: 100%;
+}
+
+view-container {
+  background: #eee;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: minmax(20ch, 20vw) minmax(40ch, auto);
+  grid-template-areas:
+    "hd hd"
+    "sd bd"
+    "ft ft";
+}
+
+view-container > * {
+  background: white;
+  padding: 1rem;
+}
+
+view-head {
+  grid-area: hd;
+}
+
+view-controls {
+  grid-area: sd;
+}
+
+view-content {
+  grid-area: bd;
+}
+
+view-foot {
+  grid-area: ft;
+}
+
+img {
+  max-width: 100%;
+
+}
+
+product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20ch, 30ch));
+  grid-gap: 1rem;
+}

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details - Gp Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+<!------ Include the above in your HEAD tag ---------->
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="assets/css/filterfields.css">
+
+<style>
+.mySlides {display:none;}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+<style>
+
+
+.stars {
+	direction: rtl;
+	margin: 0 auto;
+}
+	label {
+		cursor: pointer;
+		padding: 10px;
+		margin: 0;
+	}
+	
+	.fa {
+		color: #f1c40f;
+		text-shadow: 0 0 5px #f1c40f;
+		font-size: 30px;
+	}
+	
+	input:not(:checked) ~ label:not([for="difficulty-1"]) > .fa-star { display: none; }
+	
+	label:hover > .fa-star-o,
+	label:hover ~ label > .fa-star-o,
+	input:checked ~ label > .fa-star-o { display: none; }
+	
+	label:hover > .fa-star,
+	label:hover ~ label > .fa-star,
+	input:checked ~ label > .fa-star { display: inline-block !important; }
+
+  </style>
+  
+
+  <!-- =======================================================
+  * Template Name: Gp - v4.7.0
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+        <a href="index.html">
+            <img src="assets\img\deca-logo.png" width="70px">
+        </a>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.1" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+                <!-- <li><a class="nav-link scrollto active" href="#hero">Home</a></li> -->
+                <li><a class="nav-link scrollto" href="dashboard.html">My dashboard</a></li>
+
+                <li><a class="nav-link scrollto" href="#about">ESG Solutions</a></li>
+                <li><a class="nav-link scrollto" href="#services">Our Experts</a></li>
+          
+
+                <li id="navbar"> <a  href="#contact" class="nav-link scrollto" ><span style="background-color: #51a366" id="contact-item">Get in touch</span> </a></li>
+              </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+     
+            
+        </nav>
+        <!-- .navbar -->
+
+  
+
+    </div>
+</header>
+ <!-- ======= Breadcrumbs ======= -->
+ <div class="w3-content w3-display-container" style="max-width:100%;margin-top: 85px;
+ padding-top: 15px;">
+<div class="mySlides">
+  <img src="1.jpg" style="width:100%">
+  <div class="w3-container w3-green">
+    <h1 style="margin-left: 15px;"><i>Article1</i></h1>
+   
+  </div>
+</div>
+<div class="mySlides">
+  <img src="2.jpg" style="width:100%">
+  <div class="w3-container w3-green">
+    <h1 style="margin-left: 15px;"><a href="#">Article2</a></h1>
+   
+  </div>
+</div>
+<div class="mySlides">
+  <img src="3.jpg" style="width:100%">
+  <div class="w3-container w3-green">
+    <h1 style="margin-left: 15px;"><i>Article3</i></h1>
+   
+  </div>
+</div>
+
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+ 
+<main id="main">
+
+
+    <div class="container" data-aos="fade-up">
+    
+        <div class="row">
+      
+          
+
+            <h2 class="heading1"><strong>ESG Solutions</strong> </h2>
+            <section id="hero" class="d-flex align-items-center justify-content-center">
+
+
+                <div class="container" data-aos="fade-up">
+
+              
+                    <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+                 
+
+                        <div class="col-xl-4 col-md-4">
+                            <div class="icon-box">
+                                <i class="ri-bar-chart-box-line"></i>
+                                <h3><a href="">ESG Risk Rating</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4">
+                            <div class="icon-box">
+                                <i class="ri-calendar-todo-line"></i>
+                                <h3><a href="">ESG Materiality</a></h3>
+                                <h3>a Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores aut veritatis, illum iusto repellat similique. Debitis, repellendus explicabo. Obcaecati, corporis. Consectetur delectus fugit architecto illum fugiat. Architecto nostrum quos aliquid!</h3>
+                                <a data-solutionCategoryid="" href="categorySolutions.html" class="get-started-btn scrollto">View More</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4">
+                            <div class="icon-box">
+                                <i class="bi-bar-chart-line"></i>
+                                <h3><a href="">ESG Intelligence</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4">
+                            <div class="icon-box">
+                                <i class="ri-database-2-line"></i>
+                                <h3><a href="">ESG 365</a></h3>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+</section>
+<!-- End About Section -->
+  
+<!-- End #main -->
+      <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+      <view-container id="app">
+        <view-head>
+          <h3 class="heading1"><strong>ESG Expertplace</strong></h3>
+        </view-head>
+        
+        <view-controls>
+          <div v-for="(filterset, key) in filters" style="min-width:20ch">
+            <h6 v-text="`Filter by ${key}`"></h6>
+            <ul class="list-unstyled">
+              <li class="form-check" v-for="filter in filterset">
+                <label class="form-check-label">
+                  <input class="form-check-input" 
+                         type="checkbox" 
+                         name="filters" 
+                         v-bind:value="filter"
+                         v-model="activeFilters">
+                  <span v-text="filter"></span>
+                </label>
+              </li>
+            </ul>
+          </div>
+          <p v-if="activeFilters.length">
+            <button class="btn btn-sm btn-secondary" 
+                    type="button"
+                    v-on:click="clearFilters">Clear Filters</button>
+          </p>
+        </view-controls>
+        
+        <view-content data-aos="zoom-in" data-aos-delay="300">
+          <h6 v-text="`${filteredExperts.length} results`"></h6>
+          <p v-if="activeFilters.length">
+            <small class="text-muted" v-text="`Filtered by ${activeFilters.join(', ')}`"></small>
+          </p>
+          <product-grid>
+            <div class="card" v-for="expert in filteredExperts">
+
+            
+
+              <img class="card-img-top" v-bind:src="`${expert.imgscr}`" alt="">
+              <div class="card-block">
+                <h5 class="card-title" v-text="expert.name"></h5>
+                <p class="card-text">
+                
+                  <div class="stars">    
+                <label for="rating"><a href="reviews.html" v-text="`${expert.rating}`">2/5</a></label>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+           </div>
+                  <span v-text="`Strength: ${expert.strength}`"></span>
+                  <br>
+                  <span v-text="`ESG rating: ${expert.esgrating}`"></span>
+                </p>
+                <button type="submit" class="get-started-btn viewProfile" style="background-color: #51a366;" :data-id="`${expert.id}`">View Profile</button>
+
+              </div>
+            </div>
+          </product-grid>
+        </view-content>
+        
+        <view-foot>
+          <p>
+            <small class="text-muted" v-text="`${experts.length} total / ${filteredExperts.length} shown`"></small>
+          </p>
+        </view-foot>
+      </view-container>
+      </div>
+      </section>
+    </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer"> <div class="footer-top">
+    <a href="index.html" style="margin-left: 50%;">
+        <img src="assets\img\deca-logo.png" width="70px">
+    </a>
+    <div class="container">
+
+        <center style="margin-top: 70px;">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6">
+
+                    <a href="#about">
+                        <h4>ESG Solutions</h4>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <a href="#services">
+                        <h4>ESG Expertplace</h4>
+                    </a>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <a href="#portfolio">
+                        <h4>Decarbonify Tour</h4>
+                    </a>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-newsletter">
+                    <a href="#contact">
+                        <h4>Get In Touch</h4>
+                    </a>
+                </div>
+
+            </div>
+        </center>
+        <hr>
+        <center>
+            <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </center>
+    </div>
+</div>
+
+<div class="container">
+    <div class="copyright">
+        &copy; Copyright <strong><span>Decarbonify</span></strong>. All Rights Reserved.
+    </div>
+    <div class="credits">
+
+    </div>
+</div></footer>
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/vuejs/filterfields.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.4/vue.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.23.0/ramda.min.js"></script>
+<script>
+  const experts = [
+    {id: '1', name: 'Ginilla', esgrating: '20%', strength: 'Social', rating: '5/5', imgscr: 'assets/img/team/Gunilla.jfif'},
+    {id: '2', name: 'Saad', esgrating: '30%', strength: 'Environmetal', rating: '5/5', imgscr: 'assets/img/team/Gunilla.jfif'},
+    {id: '3', name: 'Mohammed', esgrating: '50%', strength: 'Governance', rating: '5/5' , imgscr: 'assets/img/team/Gunilla.jfif'},
+
+  ] 
+  
+  const tru = val => Boolean(val) === true
+
+    const hashValues = () => (
+
+     location.hash.replace(/^#/, '').split(',').filter(tru)
+
+  )
+
+  const activeFilters = hashValues()
+
+  const vm = new Vue({
+    el: '#app',
+    data: {
+      get esgrating() { 
+        return R.pipe(R.pluck('esgrating'), R.uniq)(experts)
+      },
+      get strength() { 
+        return R.pipe(R.pluck('strength'), R.uniq)(experts)
+      },
+      get filters() {
+        return {
+          'ESG Rating': this.esgrating,
+          'Strength': this.strength
+        }
+      },
+      get filteredExperts() {
+        // experts that have either a skill or usage value present within active filters
+        if (!this.activeFilters.length) return this.experts
+        return this.experts.filter(exper => (
+          [exper.esgrating, exper.strength].some(val => this.activeFilters.includes(val))
+        ))
+      },
+      activeFilters,
+      experts
+    },
+    methods: {
+      clearFilters() {
+        this.activeFilters.splice(0, this.activeFilters.length)
+      }
+    },
+    watch: {
+      activeFilters: newVal => {
+        location.hash = newVal.join(',')
+      }
+    }
+  })
+  
+  window.onhashchange = () => {
+
+    activeFilters.splice(0, activeFilters.length, ...hashValues())
+  }
+
+  //# sourceURL=pen.js
+
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function currentDiv(n) {
+    showDivs(slideIndex = n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" w3-white", "");
+    }
+    x[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " w3-white";
+  }
+</script>
+  
+</body>
+
+</html>
